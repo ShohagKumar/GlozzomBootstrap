@@ -1,0 +1,193 @@
+/* css of index.html file start here  */
+
+/* Navbar section  */
+.navbar{
+    background: #000 !important;
+}
+.navbar .nav-item{
+    padding-left: 1em !important;
+}
+.navbar .nav-item .nav-link{
+   text-transform: uppercase;
+}
+
+
+/* slider section  */
+
+.carousel-item{
+    height: 450px;
+}
+.carousel-item img{
+    background-size: cover;
+}
+
+/* home icon section  */
+#homeicon .fa{
+    font-size: 50px;
+}
+
+/* home- get started section  */
+
+#getstarted{
+    background: url("img/bg1.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    position: relative;
+
+}
+
+.dark-overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, .7);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+#home-video{
+    background: url("img/people.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    position: relative;
+    
+}
+
+.dark2-overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, .7);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#home-video .fa{
+    font-size: 50px;
+}
+
+
+#galary img{
+    height: 200px;
+    width: 400px;
+}
+
+
+#footer{
+    background: #000 !important;
+}
+/* css of index.html file end  */
+
+
+/* css of about.html file start here  */
+
+#page-header{
+    background: url("img/image1.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+#about-info img{
+    width: 300px;
+    height: 300px;
+}
+
+#icon-boxes .fa{
+    font-size: 50px;
+}
+
+
+
+.slick-prev::before,
+.slick-next::before{
+    color: #000;
+}
+
+
+
+/* css of services.html file start here  */
+#services-header{
+    background: url("img/image2.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+
+#question .card a{
+    text-decoration: none;
+}
+
+
+
+/* css of blog.html file start here  */
+#blog-header{
+    background: url("img/image3.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 250px;
+
+    
+}
+/* css of contact.html file start here  */
+#contact-header{
+    background: url("img/image1.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+
+
+
+
+/* media query of index.html file stat */
+/* media quires */
+@media(max-width:768px){
+    .navbar .nav-item{
+        padding-left: 0 !important;
+    }
+
+}   
+
+@media (min-width: 100px) and (max-width:675px)
+{   .carousel-item img{
+    height: 450px;
+    
+}
+
+   .carousel h5 {
+       font-size: 2rem;
+   }
+    
+   .carousel p {
+       font-size: 1rem;
+   }
+    
+}
+
+@media(max-width:912px){
+    #getstarted{
+        min-height: 300px;
+    }
+}
+@media(max-width:500px){
+    #getstarted h2{
+       font-size: 1.5rem;
+    }
+     #getstarted p{
+       font-size: 1.1rem;
+    }
+}
+   
+/* media query of index.html file end */
